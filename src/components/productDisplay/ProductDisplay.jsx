@@ -29,8 +29,27 @@ export const ProductDisplay = (props) => {
                     <p>(122)</p>
                 </div>
                 <div className="productDisplay-right-prices">
-
+                    <div className="productDisplay-right-price-old">${product.old_price}</div>
+                    <div className="productDisplay-right-price-new">${product.new_price}</div>
                 </div>
+                <div className="productDisplay-right-description">
+                    A lightWeight ,usually knitted pullover shirt ,close-fitting and
+                    with a round neckline and short sleeves ,worn as under
+                    shirt or outer garment
+                </div>
+                <div className="productDisplay-right-size">
+                    <h1>Select size</h1>
+                    <div className="productDisplay-right-size">
+                        <div>S</div>
+                        <div>M</div>
+                        <div>L</div>
+                        <div>XL</div>
+                        <div>XXL</div>
+                    </div>
+                </div>
+                <button >ADD TO CART</button>
+                <p className="productDisplay-right-category"><span>Category:</span>Women ,T-shirt , Crop Top</p>
+                <p className="productDisplay-right-category"><span>Tags:</span>Modern , Latest</p>
             </div>
         </div>
     )
